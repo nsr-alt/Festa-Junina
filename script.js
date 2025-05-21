@@ -1,5 +1,5 @@
 function verificarPergunta(){
-    const palavra = document.getElementById('palavra').value.toLowerCase()
+    const palavra = document.getElementById('palavra').value
     const palavraCorreta = 'Forró'
 
     if (palavra == palavraCorreta){
